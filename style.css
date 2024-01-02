@@ -10,10 +10,14 @@ body{
 
 .header{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
     color: white;
-    padding: 20px;
+}
+
+.navbar{
+    display: flex;
+    border-style:solid;
+    border-color: red;
 }
 
 .nav-title{
@@ -39,6 +43,16 @@ main{
   
 }
 
-img{
+.hero{
+    border-style:solid;
+    border-color: red;
+}
+
+.hero-txt{
+    font-size: 38px;
+    font-weight:900;
+}
+
+.hero-img{
     width: 500px;
 }
