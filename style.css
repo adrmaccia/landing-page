@@ -5,19 +5,20 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #1F2937;
 }
 
 .header{
     display: flex;
     flex-direction: column;
     color: white;
+    background-color: #1F2937;
+    padding: 30px 400px 100px 400px;
 }
 
 .navbar{
     display: flex;
-    border-style:solid;
-    border-color: red;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav-title{
@@ -36,23 +37,112 @@ a{
     text-decoration: none;
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    color: white;
-  
+a:hover{
+    color: #9c9c9c;
 }
 
 .hero{
-    border-style:solid;
-    border-color: red;
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    background-color: #1F2937;
+
 }
 
-.hero-txt{
-    font-size: 38px;
+.hero-left{
+    margin-right: 60px;
+}
+
+h1{
+    font-size: 48px;
     font-weight:900;
 }
 
+.signup{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 10px;
+    border:1px solid transparent;
+    color: white;
+    background-color: #3882F6;
+}
+
+.signup:hover{
+    background-color: #265eb8;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.hero-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 12px 0px;
+}
+
 .hero-img{
-    width: 500px;
+    width: 600px;
+}
+
+.random{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px 100px 0px;
+}
+
+.random-content{
+    display:flex;
+    gap: 50px;
+}
+
+.random-title{
+    font-size: 36px;
+    color: #1F2936;
+}
+
+.random-text{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.empty-box{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 4px;
+    border-radius: 15px;
+}
+
+.container{
+    margin-top:30px;
+    width: 150px;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 120px 520px;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.quote-name{
+    text-align: end;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.cta{
+    padding: 50px 300px;
+}
+
+.cta-banner{
+    background-color: #3882F6;
 }
